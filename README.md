@@ -3,22 +3,19 @@ Desafio técnico da Inove - desenvolvedor python web
 
 para rodar o projeto primeiro de um git clone https://github.com/VsSalles/desafio_tecnico_inove.git
 
-após isso instale as bibliotecas com o comando pip install requirements.txt
-
 após isso crie um ambiente virtual com o comando python -m venv venv
 
 ative o ambiente virtual com o comando venv/scripts/activate.ps1
 
-instale as bibliotecas com o comando pip install -r requirements.txt
+após isso entre no diretorio do projeto com o comando cd desafio_tecnico_inove e instale as bibliotecas com o comando pip install -r requirements.txt
 
-para o banco de dados você tera que inserir as credencias no arquivo na instancia db = ConnectDB('usuario', 'senha', 'host', 'banco_name', port),nos arquivos entidades_db.py e run.py
+para o banco de dados você tera que inserir as credencias na instancia db = ConnectDB('usuario', 'senha', 'host', 'banco_name', port),nos arquivos entidades_db.py e run.py
 
-após rode uma vez o comando python entidades_db.py para a criação das tabelas
+após isso rode uma vez o comando python entidades_db.py para a criação das tabelas
 
-por fim rode o arquivo run.py onde tem as operações no banco de dados e api
+por fim rode o arquivo run.py onde tem as operações no banco de dados e api, com o comando python run.py
 
 Desafio realizado com as bibliotecas SqlAlchemy, Requests e psycopg2
-
 
 Api.py = responsavel por fazer todas as requisições a Api
 
